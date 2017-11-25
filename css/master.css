@@ -1,0 +1,1177 @@
+@import "reset.css";
+
+* {
+    margin: auto;
+    padding: 0;
+    border: 0;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.no-padding {
+    padding: 0px !important;
+}
+
+/*Begin topbar*/
+.topbar {
+    background-color: #636363;
+}
+
+.topbar .btn-top-row {
+
+    margin-top: 8px;
+}
+
+.topbar .btn-top-row > span {
+    color: grey;
+    font-size: 14px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.topbar .icon-top-row {
+    float: right;
+}
+
+.Topbar button {
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 5px 9px;
+}
+
+.topbar .login, .Register, .English {
+    font-size: 14px;
+    color: grey;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 9px 20px 10px 22px;
+    border-left: 1px grey solid;
+    line-height: 30px;
+}
+
+.topbar .English {
+
+    padding-right: 0px !important;
+}
+
+.topbar .English > select {
+    background-color: #636363;
+    border-color: #636363;
+}
+/*End topbar*/
+
+/*Begin header*/
+header .menu {
+    width: 72%;
+    margin-top: 35px;
+    float: left
+}
+
+header .logo {
+
+    padding: 30px 15px;
+}
+
+header .menubar > button {
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 11px 28px;
+    float: right;
+    margin-left: 5px;
+    margin-top: 28px;
+}
+
+header .form > input[type=text] {
+    float: right;
+    width: 20px;
+    margin-top: 28px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../template/images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 9px 12px 8px 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+header .form > input[type=text]:focus {
+    width: 12%;
+}
+
+header .nav > li {
+    color: grey;
+}
+
+header .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 12px;
+    color: grey;
+}
+
+header .menu .navbar-header .navbar-toggle {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: auto;
+    text-align: right;
+    color: grey;
+}
+
+header .menu .navbar-header .navbar-toggle:focus {
+    outline: 0
+}
+
+header .menu .navbar-header .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px
+}
+
+header .menu .navbar-header .navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px
+}
+
+header .menu .navbar-header .navbar-toggle:hover,
+header .menu .navbar-toggle:focus {
+    background-color: #ddd;
+    text-align: right;
+}
+
+header .menu .navbar-header .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+header .menu .divid-menu .title-menu .dropdown .dropdown-toggle .menu-caret {
+    font-size: 16px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent
+
+}
+
+header .menu .divid-menu .title-menu .dropdown .dropdown-toggle {
+    font-size: 15px;
+}
+
+header .menu .divid-menu .title-menu .dropdown > ul > li {
+
+    border-bottom: solid 0.1px #F0F0F0;
+    padding: 7px 5px;
+    color: grey;
+}
+
+header .menu .divid-menu .title-menu .dropdown > ul > li:last-child {
+    border-bottom: none;
+    padding: 7px 5px;
+}
+
+header .menu .divid-menu .title-menu .dropdown > ul > li :focus,
+.dropdown > ul > li :visited {
+
+    color: #ffa507;
+    background-color: #FFFFFF;
+}
+
+header .menu .divid-menu .title-menu .dropdown > ul > li > a {
+
+    text-align: left;
+
+}
+
+header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
+.dropdown > ul > li > a > :visited {
+
+    color: #ffa507;
+    background-color: #FFFFFF;
+}
+
+/*End header*/
+
+/*Begin comp-1 */
+.comp-1 {
+    height: auto
+}
+
+.comp-1 .box1-comp-1 {
+    background-color: #128538;
+}
+
+.comp-1 .box2-comp-1 {
+    background-color: #0072E4;
+}
+
+.comp-1 .box3-comp-1 {
+    background-color: #BE1E2D;
+}
+
+.comp-1 .box4-comp-1 {
+    background-color: #AFC211;
+}
+
+.comp-1 .box5-comp-1 {
+    background-color: #A03EBA;
+}
+
+.comp-1 .box6-comp-1 {
+    background-color: #DE176A;
+}
+
+.comp-1 .box1-comp-1,
+.comp-1 .box2-comp-1,
+.comp-1 .box3-comp-1,
+.comp-1 .box4-comp-1,
+.comp-1 .box5-comp-1,
+.comp-1 .box6-comp-1 {
+    height: auto;
+    width: 15.4%;
+    float: left;
+    margin-left: 10px;
+}
+
+.comp-1 .box1-comp-1 > img,
+.comp-1 .box2-comp-1 > img,
+.comp-1 .box3-comp-1 > img,
+.comp-1 .box4-comp-1 > img,
+.comp-1 .box5-comp-1 > img,
+.comp-1 .box6-comp-1 > img {
+
+    margin: 32px 10px 15px 65px;
+}
+/*
+.comp-1 .box1-comp-1 > p,
+.comp-1 .box2-comp-1 > p,
+.comp-1 .box3-comp-1 > p,
+.comp-1 .box4-comp-1 > p,
+.comp-1 .box5-comp-1 > p,
+.comp-1 .box6-comp-1 > p {
+
+    color: white;
+    font-size: 14px;
+    padding: 10px 0px 34px 34px;
+
+}*/
+
+
+.comp-1 .box1-comp-1 > p{
+
+    color: white;
+    font-size: 14px;
+    padding: 10px 0px 40px 34px;
+}
+.comp-1 .box2-comp-1 > p{
+
+    color: white;
+    font-size: 14px;
+    padding: 10px 0px 40px 34px;
+}
+.comp-1 .box3-comp-1 > p{
+    color: white;
+    font-size: 14px;
+    padding: 10px 0px 34px 34px;
+}
+.comp-1 .box4-comp-1 > p{
+    color: white;
+    font-size: 14px;
+    padding: 10px 0px 40px 34px;
+}
+.comp-1 .box5-comp-1 > p{
+    color: white;
+    font-size: 14px;
+    padding: 10px 0px 34px 34px;
+}
+.comp-1 .box6-comp-1 > p{
+    color: white;
+    font-size: 14px;
+    padding: 10px 0px 40px 34px;
+
+}
+
+/*End comp-1*/
+
+/*Begin comp-2*/
+.comp-2 .title-aboutus > p:first-child {
+    /* m.argin: 50px 300px 0px 540px;*/
+    text-align: center;
+    margin-top: 50px;
+}
+
+.comp-2 .title-aboutus > p:last-child {
+
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    /*margin: 20px 200px 10px 400px;*/
+}
+
+.comp-2 .content-aboutus {
+    width: 80%;
+    margin: auto;
+    color: grey;
+}
+
+.comp-2 .content-aboutus > p {
+    margin-top: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.comp-2 .arrow_box {
+    position: relative;
+    background: red;
+    font-size: 1.5px;
+    padding: 0px 25px;
+    margin-left: 547px;
+
+}
+
+.comp-2 .arrow_box:after, .arrow_box:before {
+    top: 100%;
+    right: 40%;
+    border: solid transparent;
+    content: "";
+    height: 0px;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.comp-2 .arrow_box:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: red;
+    border-width: 5px;
+    margin-left: -25px;
+}
+
+.comp-2 .btn {
+
+    margin: 30px 0px 30px 500px;
+    background-color: black;
+    color: white;
+    padding: 12px 30px;
+
+}
+/*End comp-2*/
+
+/*Begin comp-3*/
+.comp-3 {
+    background: url('../template/images/background1.png');
+    margin-top: 30px;
+}
+
+.comp-3 .content1-comp-3 {
+    padding-top: 120px;
+}
+
+.comp-3 .content1-comp-3 .icon-content1-comp-3 {
+    display: inline-block
+}
+
+.comp-3 .content1-comp-3 .icon-content1-comp-3 > img {
+    margin-top: 30px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.comp-3 .content1-comp-3 .first-span {
+
+    width: 75%;
+    display: inline-block;
+    margin: 0px 0px 0px 20px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+.comp-3 .content1-comp-3 .two-span {
+    font-size: 19px;
+    font-weight: bold;
+    padding-right: 25px;
+}
+
+.comp-3 .content-middle-copm-3 {
+    background-color: white;
+}
+
+.comp-3 .content-middle-copm-3 > img:first-child {
+    position: absolute;
+}
+
+.comp-3 .content-middle-copm-3 > img:nth-last-child(even) {
+
+    margin-top: 110px;
+    z-index: 1;
+    margin-left: -14px;
+}
+
+.comp-3 .content-middle-copm-3 .form-info {
+
+    border-bottom: solid 1px #ccc;
+}
+
+.comp-3 .content-middle-copm-3 .form-info > p:nth-last-child(odd) {
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.comp-3 .content-middle-copm-3 .form-info > p:nth-last-child(even) {
+    text-align: center;
+    color: gray;
+    width: 90%;
+    margin: auto;
+    line-height: 23px;
+}
+
+.comp-3 .content-middle-copm-3 .form-info .option-input {
+    width: 80%;
+    margin: auto;
+    margin-top: 16px;
+}
+
+.comp-3 .content-middle-copm-3 .form-info .option-input > select {
+    width: 100%;
+    padding: 8px 6px 8px 10px;
+    border: solid 1px #ccc;;
+    color: gray;
+    margin: 7px auto;
+}
+
+.comp-3 .content-middle-copm-3 .form-info .option-input > input[type=text] {
+    width: 100%;
+    padding: 8px 6px 8px 10px;
+    border: solid 1px #ccc;;
+    color: gray;
+    margin: 7px auto;
+}
+
+.comp-3 .content-middle-copm-3 .form-info .option-input > button[type=submit] {
+
+    width: 100%;
+    text-align: center;
+    padding: 8px 6px;
+    margin: 7px 0px 25px 0px;
+}
+/*End copm-3*/
+
+/*Begin comp-4*/
+.comp-4 .scrollList .parascroll .scrollable {
+
+    position: absolute;
+    background: url('../template/images/img1-comp-4.jpg') no-repeat;
+    width: 100%;
+}
+
+.comp-4 .scrollList {
+    color: #fff;
+    font-family: "Helvetica Neue", helvetica, arial, verdana, sans-serif;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.comp-4 ul.scrollList > li {
+    overflow: hidden;
+}
+
+.comp-4 ul.scrollList,
+.comp-4 ul.scrollList > li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.comp-4 .scrollList .parascroll {
+    min-height: 300px;
+    position: relative;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.comp-4 .scrollList .parascroll .scrollable {
+
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+}
+
+.comp-4 .scrollList .parascroll .paraContent {
+    position: relative
+}
+
+.comp-4 .scrollList .parascroll .paraContent > ul > li > span,
+.comp-4 .scrollList .parascroll .paraContent > ul > li > img,
+.comp-4 .scrollList .parascroll .paraContent > ul > li > a {
+
+    display: block;
+}
+
+.comp-4 .scrollList .parascroll .paraContent > ul > li {
+    width: 24%;
+    display: inline-block;
+
+}
+
+.comp-4 .scrollList .parascroll .paraContent > ul > li > a {
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.comp-4 .scrollList .parascroll .paraContent > ul > li > a:focus {
+
+    text-decoration: none;
+    color: white;
+}
+
+.comp-4 .scrollList .parascroll .paraContent > ul > li > img {
+
+    margin: 65px 0px 45px 100px;
+
+}
+
+.comp-4 .scrollList .parascroll .paraContent > ul > li > span {
+
+    text-align: center;
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+/*End comp-4*/
+
+/*Begin comp-5*/
+.comp-5 {
+
+    padding-bottom: 50px;
+}
+
+.comp-5 .title-aboutus > p:first-child {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.comp-5 .title-aboutus > p:last-child {
+
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.comp-5 .content-aboutus {
+    width: 80%;
+    margin: auto;
+    color: grey;
+}
+
+.comp-5 .arrow_box {
+    position: relative;
+    background: red;
+    font-size: 1.5px;
+    padding: 0px 25px;
+    margin-left: 547px;
+
+}
+
+.comp-5 .arrow_box:after, .arrow_box:before {
+    top: 100%;
+    right: 40%;
+    border: solid transparent;
+    content: "";
+    height: 0px;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.comp-5 .arrow_box:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: red;
+    border-width: 5px;
+    margin-left: -25px;
+}
+
+.comp-5 .classes-item {
+
+    width: 23%;
+    display: inline-block;
+    margin: 10px 3px;
+    background-color: white;
+    box-shadow: 0px 1px 4px 0px rgba(158, 158, 158, 0.72);
+    border-radius: 4px;
+    margin-top: 60px;
+    margin-left: 16px;
+}
+
+.comp-5 .classes-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.comp-5 .classes-item .img-classes-item > a > img {
+    position: relative;
+    width: 99.6%;
+}
+
+.comp-5 .classes-item .img-classes-item > a > span {
+    position: absolute;
+    background-color: red;
+    padding: 8px 12px;
+    color: white;
+    top: 242px;
+    left: 34px;
+    border-radius: 3px;
+}
+
+.comp-5 .classes-item .info-classes {
+    border-bottom: solid 1px #ccc;
+
+}
+
+.comp-5 .classes-item .info-classes > span {
+
+    display: block;
+    padding: 10px 0px 4px 20px;
+}
+
+.comp-5 .classes-item .info-classes > span:first-child {
+
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.comp-5 .classes-item .info-classes > span > i {
+
+    display: inline-block;
+    color: #ffd700;
+}
+
+.comp-5 .classes-item .price-classes > span {
+
+    display: inline-block;
+    padding: 15px 3px 15px 22px;
+    font-size: 17px;
+    color: red;
+}
+
+.comp-5 .classes-item .price-classes > span:last-child {
+
+    padding-left: 80px;
+    color: grey;
+}
+/*End comp-5*/
+
+/*Begin comp-6*/
+.comp-6 .scrollList .parascroll .scrollable {
+
+    position: absolute;
+    background: url('../template/images/img1-comp-4.jpg') no-repeat;
+    width: 100%;
+
+}
+
+.comp-6 .scrollList {
+    color: #fff;
+    font-family: "Helvetica Neue", helvetica, arial, verdana, sans-serif;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.comp-6 ul.scrollList > li {
+    overflow: hidden;
+}
+
+.comp-6 ul.scrollList,
+.comp-6 ul.scrollList > li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.comp-6 .scrollList .parascroll {
+    min-height: 500px;
+    position: relative;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.comp-6 .scrollList .parascroll .scrollable {
+
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 600px;
+}
+
+.comp-6 .scrollList .parascroll .paraContent {
+    position: relative
+}
+
+.comp-6 .scrollList .parascroll .paraContent > ul > li > span,
+.comp-6 .scrollList .parascroll .paraContent > ul > li > img,
+.comp-6 .scrollList .parascroll .paraContent > ul > li > a {
+
+    display: block;
+}
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events {
+
+    display: inline-block;
+    width: 42%;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events:last-child {
+
+    margin-left: 20px;
+}
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events,
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .info-events {
+
+    display: inline-block;
+
+}
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .info-events {
+
+    background-color: white;
+    /* padding: 10px 53px 17px 10px;*/
+    width: 59%;
+
+}
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .info-events > span {
+
+    display: block;
+    font-size: 13px;
+    direction: ltr;
+    line-height: 25px;
+    color: grey;
+}
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .info-events > span:first-child {
+
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 9px 0px;
+
+}
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .info-events > span:nth-child(3) {
+
+    padding-left: 13px;
+
+}
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .info-events .btn {
+
+    padding: 6px 10px;
+    margin: 15px 0px 26px 4px;
+
+}
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events {
+
+    background-color: #E76D5C;
+    padding: 63px 6px 52px 5px;
+    border-radius: 2px;
+    width: 39%;
+}
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span {
+
+    display: block;
+    text-align: center;
+    padding: 0px 13px 2px 13px;
+
+}
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span:first-child {
+
+    padding-bottom: 30px;
+}
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span:nth-last-child(odd) {
+    font-size: 16px;
+}
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span:nth-last-child(even) {
+
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.comp-6 .scrollList .parascroll .paraContent > ul > li {
+    width: 24%;
+    display: inline-block;
+
+}
+
+.comp-6 .title-aboutus > p:first-child {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.comp-6 .title-aboutus > p:last-child {
+
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.comp-6 .arrow_box {
+    position: relative;
+    background: red;
+    font-size: 1.5px;
+    padding: 0px 25px;
+    margin-left: 547px;
+
+}
+
+.comp-6 .arrow_box:after, .arrow_box:before {
+    top: 100%;
+    right: 40%;
+    border: solid transparent;
+    content: "";
+    height: 0px;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.comp-6 .arrow_box:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: red;
+    border-width: 5px;
+    margin-left: -25px;
+}
+/*End comp-6*/
+
+/*Begin comp-7*/
+.comp-7 {
+
+    padding-bottom: 50px;
+}
+
+.comp-7 .title-aboutus > p:first-child {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.comp-7 .title-aboutus > p:last-child {
+
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.comp-7 .content-aboutus {
+    width: 80%;
+    margin: auto;
+    color: grey;
+}
+
+.comp-7 .arrow_box {
+    position: relative;
+    background: red;
+    font-size: 1.5px;
+    padding: 0px 25px;
+    margin-left: 547px;
+}
+.comp-7 .arrow_box:after, .arrow_box:before {
+    top: 100%;
+    right: 40%;
+    border: solid transparent;
+    content: "";
+    height: 0px;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.comp-7 .arrow_box:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: red;
+    border-width: 5px;
+    margin-left: -25px;
+}
+
+.comp-7 .classes-item {
+
+    width: 30%;
+    display: inline-block;
+    margin: 10px 3px;
+    background-color: white;
+    box-shadow: 0px 1px 4px 0px rgba(158, 158, 158, 0.72);
+    border-radius: 4px;
+    margin-top: 60px;
+    margin-left: 16px;
+}
+
+.comp-7 .classes-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.comp-7 .classes-item .img-classes-item > a > img {
+    position: relative;
+    width: 99.6%;
+}
+
+.comp-7 .classes-item .img-classes-item > a > span {
+    position: absolute;
+    background-color: red;
+    padding: 8px 12px;
+    color: white;
+    top: 300px;
+    left: 34px;
+    border-radius: 3px;
+}
+
+.comp-7 .classes-item .info-classes {
+    border-bottom: solid 1px #ccc;
+
+}
+
+.comp-7 .classes-item .info-classes > span {
+
+    display: block;
+    padding: 10px 0px 4px 20px;
+}
+
+.comp-7 .classes-item .info-classes > span:nth-child(n+2) {
+    width: 90%;
+    line-height: 20px;
+    font-size: 13px
+}
+.comp-7 .classes-item .info-classes > span:last-child {
+
+    padding-bottom: 30px;
+}
+
+.comp-7 .classes-item .info-classes .red-color {
+    color: red;
+}
+
+.comp-7 .classes-item .info-classes .red-color:last-child {
+    padding-left: 40px;
+}
+
+.comp-7 .classes-item .info-classes .gray-color {
+    color: gray;
+}
+
+.comp-7 .classes-item .info-classes > span:first-child {
+
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.comp-7 .classes-item .info-classes > span > i {
+
+    display: inline-block;
+    color: #ffd700;
+}
+/*End comp-7*/
+
+/*Begin comp-8*/
+.comp-8 {
+
+    background: url('../template/images/blackbackgroun-comp-8.jpg');
+    margin-bottom: 70px;
+
+}
+
+.comp-8 .blueman {
+
+    margin: 14px 0px 0px 110px;
+}
+
+.comp-8 .testimonial {
+    width: 55%;
+    margin: 60px 0px 0px 0px;
+
+}
+
+.comp-8 .testimonial > span,
+.comp-8 .testimonial > img {
+
+    display: block;
+    line-height: 20px;
+    direction: ltr;
+    padding-bottom: 20px;
+}
+
+.comp-8 .testimonial > span:nth-last-child(6) {
+
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    padding-left: 100px;
+}
+
+.comp-8 .testimonial > span:nth-last-child(5) {
+
+    font-size: 14px;
+    color: whitesmoke;
+    padding-left: 100px;
+
+}
+
+.comp-8 .testimonial > span:nth-last-child(3) {
+
+    font-size: 32px;
+    font-weight: bold;
+    color: grey;
+    padding: 90px 0px 12px 0px;
+
+}
+
+.comp-8 .testimonial > span:nth-last-child(2) {
+
+    font-size: 17px;
+    color: grey;
+    padding: 15px 0px 12px 100px;
+
+}
+
+.comp-8 .testimonial .btn {
+
+    padding: 10px 22px 10px 22px;
+    margin: 25px 0px 0px 170px;
+
+}
+
+.comp-8 .testimonial > img {
+
+    padding-left: 100px;
+}
+/*End comp-8*/
+
+/*Begin comp-9*/
+.comp-9{
+    background-color:whitesmoke;
+    border-bottom: solid 4px red;
+}
+.comp-9 >img{
+
+   margin-top: 30px;
+    padding: 0px!important;
+}
+/*End comp-9*/
+
+
+/*Begin footer*/
+
+footer .img-about > img:first-child{
+
+    position:relative; margin-top: 30px;width: 180%;
+}
+footer .img-about > img:last-child{
+
+    position: absolute;margin: -175px 0px 0px 520px;
+}
+footer .about{
+
+    width: 14%;
+    display: inline-block;
+    margin-bottom: 80px;
+    margin-left: 14px;
+}
+footer .about:nth-child(n+2){
+
+margin-top:80px; ;
+}
+footer .about .first{
+
+    margin-top:160px;
+}
+
+footer .about > span{
+    display: block;
+    line-height: 32px;
+}
+
+.copyright-row{
+    padding:25px;
+}
+footer .copyright-row .copyright,
+footer .copyright-row .copyright-menu {
+
+    display: inline-block;
+}
+footer .copyright-row .copyright{
+
+    color: white;
+    font-size: 18px;
+}
+footer .copyright-row .copyright > span{
+    margin-left: 500px;
+}
+footer .copyright-row .copyright-menu > ul >li{
+    display: inline-block;
+    list-style-type: none;
+    padding-left:20px;
+}
+
+footer .copyright-row .copyright-menu > ul >li > a{
+
+    color: white;
+    font-size: 18px;
+
+}
+footer .copyright-row .copyright-menu > ul >li > a :first-child{
+    padding-left: 210px;
+}
+/*End footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
