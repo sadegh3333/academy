@@ -1,18 +1,5 @@
-// Header controller
+/*JS For Parallax*/
 $(document).ready(function () {
-$('custom',function($scope) {
-    // Make Persian Date
-    var now = persianDate();
-    $('.date').html(persianDate().format('dddd  DD MMMM YYYY | ss : mm : HH '));
-    setInterval(function () {
-        var now = persianDate();
-        $('.date').html(persianDate().format('dddd  DD MMMM YYYY | ss : mm : HH '));
-    }, 1000);});
-
-
-
-
-
 
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-36251023-1']);
@@ -27,8 +14,9 @@ $('custom',function($scope) {
 
 });
 
-
-
 $(function(){
     $('.parascroll').parascroll();
-})
+
+});
+/*JS For Parallax*/
+
