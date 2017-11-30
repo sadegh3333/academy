@@ -15,6 +15,7 @@ html, body {
     padding: 0px !important;
 }
 
+
 /*Begin topbar*/
 .topbar {
     background-color: #636363;
@@ -36,7 +37,7 @@ html, body {
     float: right;
 }
 
-.Topbar button {
+.topbar > button {
     font-size: 11px;
     border-radius: 5px;
     padding: 5px 9px;
@@ -211,6 +212,10 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 /*End header*/
 
 /* Begin Slider*/
+.slider .carousel-inner .item >img{
+
+    width: 100%;
+}
 
 .slider .carousel-inner .item .label-slide-container {
     max-width: 1150px;
@@ -297,6 +302,51 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     border-radius: 4px;
     font-weight: bold;
     font-size: 12px;
+}
+
+
+  .slider .slide .left-arrow-leftbox{
+    position: relative;
+    top:383px;
+    left:-75px;
+    line-height: 1;
+    font-style: normal;
+    display: inline-block;
+    color: red;
+    background-color: white;
+    padding: 11px 26px 11px 26px;
+    border-radius: 5px 0 0 5px;
+
+}
+.slider .slide .left-arrow-rightbox{
+    position: relative;
+    top:382px;
+    left:106px;
+    display: inline-block;
+    background-color: red;
+    padding: 11px 26px 11px 26px;
+    border-radius: 0 5px 5px 0;
+
+}
+.slider .slide .left-arrow-downbox{
+    position: relative;
+    top:425px;
+    left:-65px;
+    display: inline-block;
+    padding: 12px 24px 18px 24px;
+
+}
+.slider .slide .right-arrow-rightbox{
+
+    top:383px;
+    right:-75px;
+    line-height: 1;
+    font-style: normal;
+    display: inline-block;
+    color: red;
+    background-color: white;
+    padding: 11px 26px 11px 26px;
+    border-radius: 0 5px 5px 0;
 }
 
 /* End Slider*/
@@ -411,7 +461,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 .comp-2 .title-aboutus > p:first-child {
     /* m.argin: 50px 300px 0px 540px;*/
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .comp-2 .title-aboutus > p:last-child {
@@ -419,7 +469,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     font-size: 28px;
     font-weight: bold;
     text-align: center;
-    margin: 20px;
+    padding: 20px;
     /*margin: 20px 200px 10px 400px;*/
 }
 
@@ -430,7 +480,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 }
 
 .comp-2 .content-aboutus > p {
-    margin-top: 20px;
+    padding-top: 20px;
     line-height: 28px;
     text-align: center;
 }
@@ -468,6 +518,8 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     background-color: black;
     color: white;
     padding: 12px 30px;
+    -webkit-box-align: center;
+    -moz-box-align: center;
 
 }
 
@@ -519,7 +571,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 
 .comp-3 .content-middle-copm-3 > img:nth-last-child(even) {
 
-    margin-top: 110px;
+    padding-top: 110px;
     z-index: 1;
     margin-left: -14px;
 }
@@ -616,6 +668,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     left: 0px;
     width: 100%;
     height: 600px;
+    filter: blur(5px);
 }
 
 .comp-4 .scrollList .parascroll .paraContent {
@@ -791,6 +844,8 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 /*End comp-5*/
 
 /*Begin comp-6*/
+
+/* Begin css For just parallax*/
 .comp-6 .scrollList .parascroll .scrollable {
 
     position: absolute;
@@ -829,6 +884,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     left: 0px;
     width: 100%;
     height: 600px;
+    filter: blur(5px);
 }
 
 .comp-6 .scrollList .parascroll .paraContent {
@@ -842,12 +898,21 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     display: block;
 }
 
+/*End css For just parallax*/
+
+.comp-6 .scrollList .parascroll .paraContent > div:nth-child(2)> div:first-child{
+
+    margin-top: 60px;
+}
+
 .comp-6 .scrollList .parascroll .paraContent .time-day-events {
 
     display: inline-block;
-    width: 42%;
-    margin-top: 50px;
-    margin-left: 80px;
+    width: 38.8%;
+    background-color: #e76d5cad;
+    margin: 0px;
+    text-align: center;
+
 }
 
 .comp-6 .scrollList .parascroll .paraContent .time-day-events:last-child {
@@ -860,14 +925,16 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 
     display: inline-block;
 
+
 }
 
 .comp-6 .scrollList .parascroll .paraContent .time-day-events .info-events {
 
     background-color: white;
-    /* padding: 10px 53px 17px 10px;*/
-    width: 59%;
+    padding: 0px;
+    width: 58%;
     height: auto;
+    text-align: left;
 
 }
 
@@ -902,26 +969,23 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 
     padding: 6px 10px;
     margin: 15px 0px 26px 13px;
-
 }
 
 .comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events {
 
-    background-color: #E76D5C;
-    padding: 20px 6px 7px 6px;
+    padding: 10px 6px 7px 6px;
     border-radius: 2px;
     width: 39%;
-    height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-left: 4px;
+    vertical-align: top;
+    margin-top: 50px;
 }
 
 .comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span {
 
     display: block;
     text-align: center;
-    padding: 0px 13px 2px 13px;
-
 }
 
 .comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span:first-child {
@@ -940,6 +1004,15 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     padding-bottom: 3px;
 }
 
+
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events> span:nth-child(n+2)>span{
+
+    display: inline-block;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
 .comp-6 .scrollList .parascroll .paraContent > ul > li {
     width: 24%;
     display: inline-block;
@@ -948,7 +1021,8 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 
 .comp-6 .title-aboutus > p:first-child {
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .comp-6 .title-aboutus > p:last-child {
@@ -956,16 +1030,13 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     font-size: 28px;
     font-weight: bold;
     text-align: center;
-    margin: 20px;
 }
 
 .comp-6 .arrow_box {
     position: relative;
     background: red;
     font-size: 1.5px;
-    padding: 0px 25px;
-    margin-left: 547px;
-
+    padding: 0 25px;
 }
 
 .comp-6 .arrow_box:after, .arrow_box:before {
@@ -973,7 +1044,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     right: 40%;
     border: solid transparent;
     content: "";
-    height: 0px;
+    height: 0;
     width: 0;
     position: absolute;
     pointer-events: none;
@@ -983,7 +1054,6 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     border-color: rgba(136, 183, 213, 0);
     border-top-color: red;
     border-width: 5px;
-    margin-left: -25px;
 }
 
 /*End comp-6*/
@@ -1199,58 +1269,78 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     background-color: whitesmoke;
     border-bottom: solid 4px red;
 }
-
-.comp-9 > img {
-
-    margin-top: 30px;
-    padding: 0 !important;
+.comp-9 > div {
+    overflow: hidden;
+    width: 2600px;
 }
 
+.comp-9 > div > img {
+    display: inline-block;
+    width: 90px;
+    height: auto;
+    max-height: 120px;
+    margin: -2px;
+}
 /*End comp-9*/
 
 /*Begin footer*/
 
-footer .img-about > img:first-child {
-
-    position: relative;
-    margin-top: 30px;
-    width: 180%;
-}
-
 footer .img-about > img:last-child {
 
-    position: absolute;
-    margin: -175px 0 0 520px;
+    box-shadow: 0 0 15px #ddd;
+    padding: 30px 30px 30px 550px;
+    width: 155%;
+    margin-top: 85px;
 }
 
 footer .about {
 
-    width: 14%;
+    width: 17%;
     display: inline-block;
-    margin-bottom: 80px;
-    margin-left: 14px;
+    padding-bottom: 80px;
+
+}
+footer .about > span > i{
+    padding-right: 10px;
 }
 
+footer .about:nth-child(2)>span:nth-child(3){
+    color: red;
+}
+footer .about:nth-child(3)>span:nth-child(5){
+    color: red;
+}
+footer .about:nth-child(3)>span:nth-child(9){
+    color: red;
+}
+footer .about:nth-child(4)>span:nth-child(4){
+    color: red;
+}
+
+footer .about:nth-child(n+3) {
+    padding-left: 30px;
+}
 
 footer .about:nth-child(n+2) {
 
-    margin-top: 80px;;
+   padding-top: 80px;;
 }
 
 footer .about:nth-child(2) >span:nth-child(2){
 
-    margin-left: 19px;
+    padding-left: 29px;
 }
 
 footer .about:nth-child(3) >span:nth-child(n+4):not(:nth-child(7)){
 
-    margin-left: 22px;
+    padding-left: 30px;
 }
 
 footer .about .first {
 
-    margin-top: 169px;
+   padding-top: 169px;
 }
+
 
 footer .about > span:not(.arrow_box ) {
     display: block;
@@ -1264,16 +1354,24 @@ footer .about .arrow_box {
     padding:0 25px;
 }
 
-footer .about:nth-child(n+3) > span:first-child {
+footer .about:nth-child(2) >span{
+    font-size: 19px;
+}
+
+footer .about:nth-child(n+3) >span:nth-child(n+3){
 
     font-size: 20px;
+}
+footer .about:nth-child(n+3) > span:first-child {
+
+    font-size: 25px;
     font-weight: bold;
     padding-bottom: 7px;
 }
 
-footer .about:nth-last-child(2) > span:nth-last-child(4) {
+footer .about:nth-last-child(2) > span:nth-last-child(5) {
 
-    padding-bottom: 15px;
+    padding-bottom: 22px;
 }
 
 footer .about:nth-last-child(2) > span:nth-last-child(8) {
@@ -1283,11 +1381,12 @@ footer .about:nth-last-child(2) > span:nth-last-child(8) {
 footer .about:nth-last-child(1) > span:nth-last-child(9) {
 
     padding-top: 15px;
+
 }
 
 .copyright-row {
-
     padding: 25px;
+    background-color: gray
 }
 
 footer .copyright-row .copyright,
@@ -1295,15 +1394,19 @@ footer .copyright-row .copyright-menu {
 
     display: inline-block;
 }
-
+footer .copyright-row .copyright, footer .copyright-row .copyright-menu {
+    display: inline-block;
+    text-align: right;
+}
 footer .copyright-row .copyright {
 
     color: white;
     font-size: 18px;
+    text-align: left;
 }
 
 footer .copyright-row .copyright > span {
-    margin-left: 500px;
+    padding-top: 10px;
 }
 
 footer .copyright-row .copyright-menu > ul > li {
@@ -1316,11 +1419,6 @@ footer .copyright-row .copyright-menu > ul > li > a {
 
     color: white;
     font-size: 18px;
-
-}
-
-footer .copyright-row .copyright-menu > ul > li > a :first-child {
-    padding-left: 210px;
 }
 
 /*End footer*/
