@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 768px) {
 
     .container {
@@ -44,13 +43,8 @@
     /*End topbar*/
     /*Begin header*/
     header .logo {
-
-        vertical-align: middle;
-        margin: 0px auto;
-        width: auto;
-        height: auto;
-        max-height: 65px;
-
+        text-align: center;
+        padding: 20px 0px 0px;
     }
 
     header .menubar > button {
@@ -305,31 +299,7 @@
     /*End slider*/
     /*Begin comp-1 */
     .comp-1 {
-        height: auto
-    }
-
-    .comp-1 .box1-comp-1 {
-        background-color: #128538;
-    }
-
-    .comp-1 .box2-comp-1 {
-        background-color: #0072E4;
-    }
-
-    .comp-1 .box3-comp-1 {
-        background-color: #BE1E2D;
-    }
-
-    .comp-1 .box4-comp-1 {
-        background-color: #AFC211;
-    }
-
-    .comp-1 .box5-comp-1 {
-        background-color: #A03EBA;
-    }
-
-    .comp-1 .box6-comp-1 {
-        background-color: #DE176A;
+        height: auto;
     }
 
     .comp-1 .box1-comp-1,
@@ -339,10 +309,10 @@
     .comp-1 .box5-comp-1,
     .comp-1 .box6-comp-1 {
         height: auto;
-        width: 50%;
-        margin-left: 90px;
-        margin-bottom: 10px;
-
+        width: 30%;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 7px;
     }
 
     .comp-1 .box1-comp-1 > img,
@@ -352,7 +322,7 @@
     .comp-1 .box5-comp-1 > img,
     .comp-1 .box6-comp-1 > img {
 
-        margin: 12px 0 12px 75px;
+        margin: 32px 30px 15px 45px;
         width: 19%;
         height: 19%;
     }
@@ -361,44 +331,44 @@
 
         color: white;
         font-size: 7px;
-        padding: 20px 0 30px 65px;
+        padding: 10px 0 20px 26px;
     }
 
     .comp-1 .box2-comp-1 > p {
 
         color: white;
         font-size: 7px;
-        padding: 20px 0 30px 65px;
+        padding: 10px 0 17px 26px;
     }
 
     .comp-1 .box3-comp-1 > p {
         color: white;
         font-size: 7px;
-        padding: 10px 0 30px 65px;
+        padding: 2px 0 15px 26px;
     }
 
     .comp-1 .box4-comp-1 > p {
         color: white;
         font-size: 7px;
-        padding: 20px 0 30px 65px;
+        padding: 9px 0 15px 26px;
     }
 
     .comp-1 .box5-comp-1 > p {
         color: white;
         font-size: 7px;
-        padding: 10px 0 30px 65px;
+        padding: 2px 0 15px 26px;
     }
 
     .comp-1 .box6-comp-1 > p {
         color: white;
         font-size: 7px;
-        padding: 20px 0 30px 65px;
+        padding: 7px 0 15px 26px;
     }
 
     /*End comp-1*/
     /*Begin comp-2*/
     .comp-2 .title-aboutus > p:first-child {
-        /* m.argin: 50px 300px 0px 540px;*/
+
         text-align: center;
         padding-top: 50px;
     }
@@ -412,7 +382,7 @@
     }
 
     .comp-2 .content-aboutus {
-        width: 80%;
+        width: 97%;
         margin: auto;
         color: grey;
     }
@@ -436,7 +406,7 @@
         right: 40%;
         border: solid transparent;
         content: "";
-        height: 0px;
+        height: 0;
         width: 0;
         position: absolute;
         pointer-events: none;
@@ -453,7 +423,7 @@
 
         margin: 20px 0 20px 100px;
         background-color: black;
-        font-size: 14px;
+        font-size: 12px;
         color: white;
         padding: 8px 23px;
         -webkit-box-align: center;
@@ -468,7 +438,7 @@
     }
 
     .comp-3 .content1-comp-3 {
-        padding-top: 100px;
+        padding-top: 0;
     }
 
     .comp-3 .content1-comp-3 .icon-content1-comp-3 {
@@ -495,6 +465,7 @@
         font-size: 15px;
         font-weight: bold;
         padding-right: 25px;
+        display: block;
     }
 
     .comp-3 .content-middle-copm-3 {
@@ -603,7 +574,7 @@
         top: 0px;
         left: 0px;
         width: 100%;
-        height: 600px;
+        height: 500px;
         filter: blur(5px);
     }
 
@@ -620,16 +591,24 @@
 
     /* End css For just parallax*/
     .comp-4 .scrollList .parascroll .paraContent > ul > li {
-        width: 48%;
+        width: 58%;
         display: inline-block;
-
+        background-color: rgba(0, 0, 0, 0.21176470588235294);
+        border-radius: 2%;
+        margin-top: 5px;
+        margin-left: 68px;
     }
+    .comp-4 .scrollList .parascroll .paraContent > ul > li:nth-child(1){
 
+        margin-left:68px;
+    }
     .comp-4 .scrollList .parascroll .paraContent > ul > li > a {
-        font-size: 14px;
+        font-size: 12px;
         color: white;
         text-align: center;
         list-style-type: none;
+        margin-bottom: -5px;
+
     }
 
     .comp-4 .scrollList .parascroll .paraContent > ul > li > a:focus {
@@ -638,11 +617,13 @@
         color: white;
     }
 
-    .comp-4 .scrollList .parascroll .paraContent > ul > li > img {
+    .comp-4 .scrollList .parascroll .paraContent > ul > li > i {
 
-        margin: 35px 10px 25px 65px;
-        width: 20%;
-        height: 20%;
+        margin: 5px 0 -4px -16px;
+        color: darkgoldenrod;
+        font-size: 35px;
+        padding-left: 100px;
+        padding-bottom: 17px;
 
     }
 
@@ -650,7 +631,7 @@
 
         text-align: center;
         color: red;
-        font-size: 19px;
+        font-size: 16px;
         font-weight: bold;
     }
 
@@ -707,15 +688,15 @@
     }
 
     .comp-5 .classes-item {
-
-        width: 42%;
+        width: 100%;
         display: inline-block;
-        margin: 10px 3px;
+        margin: 10px 1px;
         background-color: white;
-        box-shadow: 0 1px 4px 0px rgba(158, 158, 158, 0.72);
+        box-shadow: 0px 3px 0px 0px rgba(158, 158, 158, 0.72);
         border-radius: 4px;
         margin-top: 20px;
-        margin-left: 16px;
+        margin-left: 0px;
+        text-align: center;
     }
 
     .comp-5 .classes-item:hover {
@@ -723,24 +704,23 @@
     }
 
     .comp-5 .classes-item .img-classes-item > a > img {
-        position: relative;
-        width: 99.6%;
+        width: 100%;
     }
 
     .comp-5 .classes-item .img-classes-item > a > span {
-        position: absolute;
+        position: relative;
         background-color: red;
-        padding: 4px 8px;
+        padding: 8px 12px;
         color: white;
-        top: 112px;
-        left: 34px;
+        top:-40px;
+        left: 7px;
         border-radius: 3px;
-        font-size: 9px;
     }
 
     .comp-5 .classes-item .info-classes {
         border-bottom: solid 1px #ccc;
-
+        border-left: 1px #ddd solid;
+        border-right: 1px #ddd solid;
     }
 
     .comp-5 .classes-item .info-classes > span {
@@ -839,7 +819,7 @@
     }
 
     .comp-6 .scrollList .parascroll .paraContent .time-day-events {
-        width: 68.8%;
+        width: 100.8%;
         background-color: #e76d5cad;
         text-align: center;
         margin-bottom: 20px;
@@ -861,9 +841,10 @@
 
         background-color: white;
         padding: 0px;
-        width: 57%;
+        width: 58%;
         height: auto;
         text-align: left;
+        float: right;
 
     }
 
@@ -908,6 +889,7 @@
         width: 39%;
         margin-left: 4px;
         vertical-align: top;
+        margin-top: 20px;
     }
 
     .comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span {
@@ -916,9 +898,17 @@
         text-align: center;
     }
 
+    .comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events #demo {
+
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 4px;
+       color: goldenrod !important;
+    }
+
     .comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span:first-child {
 
-        padding-bottom: 30px;
+        padding-bottom: 25px;
     }
 
     .comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span:nth-last-child(odd) {
@@ -932,10 +922,10 @@
         padding-bottom: 3px;
     }
 
-    .comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span:nth-child(n+2) > span {
+    .comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span:nth-child(3) > span:nth-child(n+2) {
 
         display: inline-block;
-        padding-right: 3px;
+        padding-left: 1px;
         padding-bottom: 10px;
     }
 
@@ -1044,7 +1034,7 @@
         box-shadow: 0px 1px 4px 0px rgba(158, 158, 158, 0.72);
         border-radius: 4px;
         margin-top: 60px;
-        margin-left: 16px;
+        margin-left:1px;
     }
 
     .comp-7 .classes-item:hover {
@@ -1057,12 +1047,12 @@
     }
 
     .comp-7 .classes-item .img-classes-item > a > span {
-        position: absolute;
+        position: relative;
         background-color: red;
         padding: 8px 12px;
         color: white;
-        top: 300px;
-        left: 34px;
+        top:-45px;
+        left:4px;
         border-radius: 3px;
     }
 
@@ -1103,7 +1093,7 @@
     .comp-7 .classes-item .info-classes > span:first-child {
 
         color: black;
-        font-size: 18px;
+        font-size: 24px;
         font-weight: bold;
     }
 
@@ -1123,26 +1113,30 @@
 
     .comp-8 .blueman {
 
-        margin: 14px 0 0 60px;
+        margin: 145px 0 0 0;
+        width: 33%;
+        height: 33%;
     }
 
     .comp-8 .testimonial {
-        width: 95%;
-        margin: 30px 0 0 -50px;
+        width: 120%;
+        margin: -340px 0 0 0px;
     }
 
     .comp-8 .testimonial > span,
     .comp-8 .testimonial > img {
 
         display: block;
-        line-height: 20px;
+        line-height: 17px;
         direction: ltr;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
+        width: 80%;
+        height: 80%;
     }
 
     .comp-8 .testimonial > span:nth-last-child(6) {
 
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
         color: white;
         padding-left: 100px;
@@ -1150,18 +1144,19 @@
 
     .comp-8 .testimonial > span:nth-last-child(5) {
 
-        font-size: 14px;
+        font-size: 12px;
         color: whitesmoke;
         padding-left: 100px;
+        line-height: 21px;
 
     }
 
     .comp-8 .testimonial > span:nth-last-child(3) {
 
-        font-size: 22px;
+        font-size: 16px;
         font-weight: bold;
         color: grey;
-        padding: 40px 0 5px 100px;
+        padding: 40px 0 5px 15px;
 
     }
 
@@ -1169,14 +1164,15 @@
 
         font-size: 11px;
         color: grey;
-        padding: 15px 0 5px 100px;
+        padding: 15px 0 5px 48px;
 
     }
 
     .comp-8 .testimonial .btn {
 
         padding: 7px 16px 7px 16px;
-        margin: 15px 0 0 124px;
+        margin: 15px 0 0 80px;
+        font-size:11px;
 
     }
 
@@ -1199,7 +1195,7 @@
 
     .comp-9 > div > img {
         display: inline-block;
-        width: 90px;
+        width: 80px;
         height: auto;
         max-height: 120px;
         margin: -2px;
@@ -1210,67 +1206,56 @@
     footer .img-about > img:last-child {
 
         box-shadow: 0 0 15px #ddd;
-        padding: 30px 30px 30px 110px;
-        width: 90%;
+        padding: 30px 30px 30px 120px;
+        width: 92%;
         margin-top: 85px;
     }
 
-    footer .about {
+    footer .about:nth-child(1) > span {
 
-        width: 95%;
-        display: inline-block;
-        padding-bottom: 0;
         padding-left: 10px;
-
     }
 
-    footer .about > span > i {
-        padding-left: 20PX;
+    footer .about:nth-child(3) > span > i {
+        padding-right: 20px;
+    }
+
+    footer .about:nth-child(2) > span > i {
+        padding-right: 10px;
+    }
+
+    footer .about:nth-child(1) > span {
+        font-size: 12px;
+    }
+
+    footer .about:nth-child(1) > span > i {
+        padding-right: 10px;
     }
 
     footer .about:nth-child(2) > span:nth-child(3) {
         color: red;
     }
 
-    footer .about:nth-child(4) {
-        padding-left: 10px;
-
-    }
-
-    footer .about:nth-child(3) > span:nth-child(5) {
+    footer .about:nth-child(2) > span:nth-child(5) {
         color: red;
     }
 
-    footer .about:nth-child(3) > span:nth-child(9) {
+    footer .about:nth-child(2) > span:nth-child(9) {
         color: red;
     }
 
-    footer .about:nth-child(4) > span:nth-child(4) {
+    footer .about:nth-child(3) > span:nth-child(4) {
         color: red;
-    }
-
-    footer .about:nth-child(n+3) {
-        padding-left: 10px;
     }
 
     footer .about:nth-child(n+2) {
 
-        padding-top: 20px;;
+        padding-top: 30px;;
     }
 
     footer .about:nth-child(2) > span:nth-child(2) {
 
-        padding-left: 39px;
-    }
-
-    footer .about:nth-child(3) > span:nth-child(n+4):not(:nth-child(7)) {
-
-        padding-left: 44px;
-    }
-
-    footer .about:nth-child(4) > span:not(:nth-child(2)) {
-
-        padding-left: 10px;
+        padding-left: 29px;
     }
 
     footer .about .first {
@@ -1288,40 +1273,51 @@
         background: red;
         font-size: 2px;
         padding: 0 25px;
-        margin-left: 30px;
     }
 
-    footer .about:nth-child(2) > span {
-        font-size: 13px;
+    footer .about:nth-child(n+1) > span:nth-child(n+3) {
+
+        font-size: 14px;
     }
 
-    footer .about:nth-child(n+3) > span:nth-child(n+3) {
+    footer .about:nth-child(1) > span:nth-child(3) {
 
-        font-size: 15px;
+        padding-left: 35px;
     }
 
-    footer .about:nth-child(n+3) > span:first-child {
+    footer .about:nth-child(n+2) > span:first-child {
 
         font-size: 17px;
         font-weight: bold;
         padding-bottom: 7px;
+    }
+
+    footer .about:nth-child(n+2) {
         padding-left: 25px;
     }
 
-    footer .about:nth-last-child(2) > span:nth-last-child(5) {
+    footer .about:nth-last-child(3) > span:nth-last-child(5) {
 
-        padding-bottom: 15px;
+        padding-bottom: 22px;
     }
 
-    footer .about:nth-last-child(2) > span:nth-last-child(8) {
-
-        padding-top: 12px;
-    }
-
-    footer .about:nth-last-child(1) > span:nth-last-child(9) {
+    footer .about:nth-last-child(3) > span:nth-last-child(8) {
 
         padding-top: 15px;
+    }
 
+    footer .about:nth-last-child(3) > span:nth-child(n+4):not(:nth-child(7)) {
+
+        padding-left: 27px;
+    }
+
+    footer .about:nth-last-child(3) > span:last-child {
+        padding-bottom: 25px;
+    }
+
+    footer .about:nth-last-child(2) > span:nth-last-child(9) {
+
+        padding-top: 15px;
     }
 
     .copyright-row {
@@ -1332,7 +1328,7 @@
     footer .copyright-row .copyright,
     footer .copyright-row .copyright-menu {
 
-        display: inline-block;
+        display:block;
     }
 
     footer .copyright-row .copyright, footer .copyright-row .copyright-menu {
@@ -1343,9 +1339,8 @@
     footer .copyright-row .copyright {
 
         color: white;
-        font-size: 14px;
-        padding-left: 20px;
-        padding-bottom: 20px;
+        font-size: 12px;
+        text-align: left;
     }
 
     footer .copyright-row .copyright > span {
@@ -1355,13 +1350,15 @@
     footer .copyright-row .copyright-menu > ul > li {
         display: inline-block;
         list-style-type: none;
-        padding-left: 5px;
+        padding-left: 10px;
+        padding-top: 7px;
     }
 
     footer .copyright-row .copyright-menu > ul > li > a {
 
         color: white;
         font-size: 14px;
+
     }
 
     footer .copyright-row .copyright-menu > ul > li > a :first-child {
@@ -1369,59 +1366,5 @@
     }
 
     /*End footer*/
-}
-
-@media screen and (min-width: 1000px) {
-
-    /*Begin slider*/
-
-
-    .slider .slide .left-arrow-leftbox{
-        position: relative;
-        top:230px;
-        left:2px;
-        line-height: 1;
-        font-style: normal;
-        display: inline-block;
-        color: red;
-        background-color: white;
-        padding: 11px 26px 11px 26px;
-        border-radius: 1px 0 0 1px;
-
-    }
-    .slider .slide .left-arrow-rightbox{
-        position: relative;
-        top:230px;
-        left:74px;
-        display: inline-block;
-        background-color: red;
-        padding: 11px 26px 11px 26px;
-        border-radius: 0 1px 1px 0;
-
-    }
-    .slider .slide .left-arrow-downbox{
-        position: relative;
-        top:230px;
-        left:35px;
-        display: inline-block;
-        padding: 12px 24px 18px 24px;
-
-    }
-    .slider .slide .right-arrow-rightbox{
-
-        top:230px;
-        right:2px;
-        line-height: 1;
-        font-style: normal;
-        display: inline-block;
-        color: red;
-        background-color: white;
-        padding: 11px 26px 11px 26px;
-        border-radius: 0 1px 1px 0;
-    }
-
-
-    /*End slider*/
-    
 
 }

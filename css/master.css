@@ -15,7 +15,6 @@ html, body {
     padding: 0px !important;
 }
 
-
 /*Begin topbar*/
 .topbar {
     background-color: #636363;
@@ -212,7 +211,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 /*End header*/
 
 /* Begin Slider*/
-.slider .carousel-inner .item >img{
+.slider .carousel-inner .item > img {
 
     width: 100%;
 }
@@ -304,11 +303,10 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     font-size: 12px;
 }
 
-
-  .slider .slide .left-arrow-leftbox{
+.slider .slide .left-arrow-leftbox {
     position: relative;
-    top:383px;
-    left:-75px;
+    top: 383px;
+    left: -75px;
     line-height: 1;
     font-style: normal;
     display: inline-block;
@@ -318,28 +316,31 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     border-radius: 5px 0 0 5px;
 
 }
-.slider .slide .left-arrow-rightbox{
+
+.slider .slide .left-arrow-rightbox {
     position: relative;
-    top:382px;
-    left:106px;
+    top: 382px;
+    left: 106px;
     display: inline-block;
     background-color: red;
     padding: 11px 26px 11px 26px;
     border-radius: 0 5px 5px 0;
 
 }
-.slider .slide .left-arrow-downbox{
+
+.slider .slide .left-arrow-downbox {
     position: relative;
-    top:425px;
-    left:-65px;
+    top: 425px;
+    left: -65px;
     display: inline-block;
     padding: 12px 24px 18px 24px;
 
 }
-.slider .slide .right-arrow-rightbox{
 
-    top:383px;
-    right:-75px;
+.slider .slide .right-arrow-rightbox {
+
+    top: 383px;
+    right: -75px;
     line-height: 1;
     font-style: normal;
     display: inline-block;
@@ -561,27 +562,27 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     padding-right: 25px;
 }
 
-.comp-3 .content-middle-copm-3 {
+.comp-3 .content-middle-comp-3 {
     background-color: white;
 }
 
-.comp-3 .content-middle-copm-3 > img:first-child {
+.comp-3 .content-middle-comp-3 > img:first-child {
     position: absolute;
 }
 
-.comp-3 .content-middle-copm-3 > img:nth-last-child(even) {
+.comp-3 .content-middle-comp-3 > img:nth-last-child(even) {
 
     padding-top: 110px;
     z-index: 1;
     margin-left: -14px;
 }
 
-.comp-3 .content-middle-copm-3 .form-info {
+.comp-3 .content-middle-comp-3 .form-info {
 
     border-bottom: solid 1px #ccc;
 }
 
-.comp-3 .content-middle-copm-3 .form-info > p:nth-last-child(odd) {
+.comp-3 .content-middle-comp-3 .form-info > p:nth-last-child(odd) {
 
     text-align: center;
     font-weight: bold;
@@ -589,7 +590,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     padding: 10px 0px;
 }
 
-.comp-3 .content-middle-copm-3 .form-info > p:nth-last-child(even) {
+.comp-3 .content-middle-comp-3 .form-info > p:nth-last-child(even) {
     text-align: center;
     color: gray;
     width: 90%;
@@ -597,13 +598,13 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     line-height: 23px;
 }
 
-.comp-3 .content-middle-copm-3 .form-info .option-input {
+.comp-3 .content-middle-comp-3 .form-info .option-input {
     width: 80%;
     margin: auto;
     margin-top: 16px;
 }
 
-.comp-3 .content-middle-copm-3 .form-info .option-input > select {
+.comp-3 .content-middle-comp-3 .form-info .option-input > select {
     width: 100%;
     padding: 8px 6px 8px 10px;
     border: solid 1px #ccc;;
@@ -611,7 +612,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     margin: 7px auto;
 }
 
-.comp-3 .content-middle-copm-3 .form-info .option-input > input[type=text] {
+.comp-3 .content-middle-comp-3 .form-info .option-input > input[type=text] {
     width: 100%;
     padding: 8px 6px 8px 10px;
     border: solid 1px #ccc;;
@@ -619,7 +620,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     margin: 7px auto;
 }
 
-.comp-3 .content-middle-copm-3 .form-info .option-input > button[type=submit] {
+.comp-3 .content-middle-comp-3 .form-info .option-input > button[type=submit] {
 
     width: 100%;
     text-align: center;
@@ -683,16 +684,24 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 }
 
 .comp-4 .scrollList .parascroll .paraContent > ul > li {
-    width: 24%;
+    width: 21%;
     display: inline-block;
-
+    background-color:rgba(0, 0, 0, 0.21176470588235294);
+    border-radius: 2%;
+    margin-left: 10px;
+    margin-top: 45px;
 }
+.comp-4 .scrollList .parascroll .paraContent > ul > li:nth-child(1){
 
+    margin-left:60px;
+}
 .comp-4 .scrollList .parascroll .paraContent > ul > li > a {
     font-size: 19px;
-    color: white;
+    font-weight: bold;
+    color:wheat;
     text-align: center;
     list-style-type: none;
+    padding-bottom: 25px;
 
 }
 
@@ -702,17 +711,20 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     color: white;
 }
 
-.comp-4 .scrollList .parascroll .paraContent > ul > li > img {
+.comp-4 .scrollList .parascroll .paraContent > ul > li > i {
 
-    margin: 65px 0px 45px 100px;
-
+    margin: 25px 0 10px -7px;
+    color: darkgoldenrod;
+    font-size: 53px;
+    padding-left: 100px;
+    padding-bottom: 37px;
 }
 
 .comp-4 .scrollList .parascroll .paraContent > ul > li > span {
 
     text-align: center;
-    color: red;
-    font-size: 28px;
+    color: #FF5733;
+    font-size: 30px;
     font-weight: bold;
 
 }
@@ -788,17 +800,16 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 }
 
 .comp-5 .classes-item .img-classes-item > a > img {
-    position: relative;
     width: 99.6%;
 }
 
 .comp-5 .classes-item .img-classes-item > a > span {
-    position: absolute;
+    position: relative;
     background-color: red;
     padding: 8px 12px;
     color: white;
-    top: 242px;
-    left: 34px;
+    top: -40px;
+    left: 3px;
     border-radius: 3px;
 }
 
@@ -900,7 +911,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 
 /*End css For just parallax*/
 
-.comp-6 .scrollList .parascroll .paraContent > div:nth-child(2)> div:first-child{
+.comp-6 .scrollList .parascroll .paraContent > div:nth-child(2) > div:first-child {
 
     margin-top: 60px;
 }
@@ -924,7 +935,6 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 .comp-6 .scrollList .parascroll .paraContent .time-day-events .info-events {
 
     display: inline-block;
-
 
 }
 
@@ -975,7 +985,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 
     padding: 10px 6px 7px 6px;
     border-radius: 2px;
-    width: 39%;
+    width: 39.8%;
     margin-bottom: 0px;
     margin-left: 4px;
     vertical-align: top;
@@ -988,9 +998,18 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     text-align: center;
 }
 
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events #demo-1,
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events #demo-2 {
+
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 4px;
+    color: gold;
+}
+
 .comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span:first-child {
 
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span:nth-last-child(odd) {
@@ -1004,14 +1023,12 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     padding-bottom: 3px;
 }
 
-
-.comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events> span:nth-child(n+2)>span{
+.comp-6 .scrollList .parascroll .paraContent .time-day-events .day-events > span:nth-child(n+2) > span {
 
     display: inline-block;
     padding-right: 10px;
     padding-bottom: 10px;
 }
-
 
 .comp-6 .scrollList .parascroll .paraContent > ul > li {
     width: 24%;
@@ -1131,12 +1148,12 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 }
 
 .comp-7 .classes-item .img-classes-item > a > span {
-    position: absolute;
+    position: relative;
     background-color: red;
     padding: 8px 12px;
     color: white;
-    top: 300px;
-    left: 34px;
+    top: -45px;
+    left: 4px;
     border-radius: 3px;
 }
 
@@ -1227,9 +1244,10 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 
 .comp-8 .testimonial > span:nth-last-child(5) {
 
-    font-size: 14px;
+    font-size: 18px;
     color: whitesmoke;
     padding-left: 100px;
+    line-height: 25px;
 
 }
 
@@ -1244,7 +1262,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 
 .comp-8 .testimonial > span:nth-last-child(2) {
 
-    font-size: 17px;
+    font-size: 19px;
     color: grey;
     padding: 15px 0px 12px 100px;
 
@@ -1269,6 +1287,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     background-color: whitesmoke;
     border-bottom: solid 4px red;
 }
+
 .comp-9 > div {
     overflow: hidden;
     width: 2600px;
@@ -1281,6 +1300,7 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
     max-height: 120px;
     margin: -2px;
 }
+
 /*End comp-9*/
 
 /*Begin footer*/
@@ -1288,59 +1308,58 @@ header .menu .divid-menu .title-menu .dropdown > ul > li > a > :focus,
 footer .img-about > img:last-child {
 
     box-shadow: 0 0 15px #ddd;
-    padding: 30px 30px 30px 550px;
-    width: 155%;
+    padding: 30px 30px 30px 610px;
+    width: 97%;
     margin-top: 85px;
 }
 
-footer .about {
+footer .about:nth-child(1) > span {
 
-    width: 17%;
-    display: inline-block;
-    padding-bottom: 80px;
-
+    padding-left: 680px;
 }
-footer .about > span > i{
+
+footer .about:nth-child(3) > span > i {
+    padding-right: 30px;
+}
+
+footer .about:nth-child(2) > span > i {
     padding-right: 10px;
 }
 
-footer .about:nth-child(2)>span:nth-child(3){
-    color: red;
+footer .about:nth-child(1) > span > i {
+    padding-right: 10px;
 }
-footer .about:nth-child(3)>span:nth-child(5){
-    color: red;
-}
-footer .about:nth-child(3)>span:nth-child(9){
-    color: red;
-}
-footer .about:nth-child(4)>span:nth-child(4){
+
+footer .about:nth-child(2) > span:nth-child(3) {
     color: red;
 }
 
-footer .about:nth-child(n+3) {
-    padding-left: 30px;
+footer .about:nth-child(2) > span:nth-child(5) {
+    color: red;
+}
+
+footer .about:nth-child(2) > span:nth-child(9) {
+    color: red;
+}
+
+footer .about:nth-child(3) > span:nth-child(4) {
+    color: red;
 }
 
 footer .about:nth-child(n+2) {
 
-   padding-top: 80px;;
+    padding-top: 85px;;
 }
 
-footer .about:nth-child(2) >span:nth-child(2){
+footer .about:nth-child(2) > span:nth-child(2) {
 
     padding-left: 29px;
 }
 
-footer .about:nth-child(3) >span:nth-child(n+4):not(:nth-child(7)){
-
-    padding-left: 30px;
-}
-
 footer .about .first {
 
-   padding-top: 169px;
+    padding-top: 15px;
 }
-
 
 footer .about > span:not(.arrow_box ) {
     display: block;
@@ -1350,38 +1369,49 @@ footer .about > span:not(.arrow_box ) {
 footer .about .arrow_box {
     position: relative;
     background: red;
-    font-size:2px;
-    padding:0 25px;
+    font-size: 2px;
+    padding: 0 25px;
 }
 
-footer .about:nth-child(2) >span{
-    font-size: 19px;
+footer .about:nth-child(n+1) > span:nth-child(n+3) {
+
+    font-size: 18px;
 }
 
-footer .about:nth-child(n+3) >span:nth-child(n+3){
+footer .about:nth-child(1) > span:nth-child(3) {
 
-    font-size: 20px;
+    padding-left: 706px;
 }
-footer .about:nth-child(n+3) > span:first-child {
+
+footer .about:nth-child(n+2) > span:first-child {
 
     font-size: 25px;
     font-weight: bold;
     padding-bottom: 7px;
 }
 
-footer .about:nth-last-child(2) > span:nth-last-child(5) {
+footer .about:nth-last-child(3) > span:nth-last-child(5) {
 
     padding-bottom: 22px;
 }
 
-footer .about:nth-last-child(2) > span:nth-last-child(8) {
+footer .about:nth-last-child(3) > span:nth-last-child(8) {
 
     padding-top: 15px;
 }
-footer .about:nth-last-child(1) > span:nth-last-child(9) {
+
+footer .about:nth-last-child(3) > span:nth-child(n+4):not(:nth-child(7)) {
+
+    padding-left: 27px;
+}
+
+footer .about:nth-last-child(3) > span:last-child {
+    padding-bottom: 50px;
+}
+
+footer .about:nth-last-child(2) > span:nth-last-child(9) {
 
     padding-top: 15px;
-
 }
 
 .copyright-row {
@@ -1394,10 +1424,12 @@ footer .copyright-row .copyright-menu {
 
     display: inline-block;
 }
+
 footer .copyright-row .copyright, footer .copyright-row .copyright-menu {
     display: inline-block;
     text-align: right;
 }
+
 footer .copyright-row .copyright {
 
     color: white;
@@ -1419,6 +1451,11 @@ footer .copyright-row .copyright-menu > ul > li > a {
 
     color: white;
     font-size: 18px;
+
+}
+
+footer .copyright-row .copyright-menu > ul > li > a :first-child {
+    padding-left: 210px;
 }
 
 /*End footer*/
